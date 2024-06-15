@@ -1,0 +1,41 @@
+{
+    "personal_data": {
+        "name": "Banda Tharun",
+        "age": 19,
+        "gender": "Female"
+    },
+    "interests": [
+        "Sports",
+        "Writing",
+        "Music",
+        "Cooking",
+        "Physics"
+    ],
+    "skills": {
+        "Algorithm Design": 10,
+        "Content Strategy": 2
+    },
+    "your_location": "Rural",
+    "economical_status": "2",
+    "subjects": {
+        "literature": "A",
+        "physics": "A",
+        "chemistry": "A",
+        "mathematics": "A",
+        "languages": "A",
+        "biology": "A",
+        "sports": "A"
+    },
+    "peer_interests": [
+        "Sports",
+        "Writing",
+        "Music",
+        "Cooking",
+        "Physics"
+    ],
+    "mindset": {
+        "decision_making_style": "asfdrtsdfg",
+        "career_expectations": "ADSZfgh"
+    },
+    "reqd": 3
+}

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .multicolumn {
+            column-count: 3;
+            column-gap: 20px;
+        }
+
+
+        .interests-code {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .interests-column {
+            flex: 0 0 30%;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .economical-status {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 10px;
+            /* Adjust margin as needed */
+        }
+
+        .economical-status label {
+            margin-right: 10px;
+            /* Adjust spacing between labels */
+        }
+
+        .economical-status input[type="radio"] {
+            margin-right: 5px;
+            /* Adjust spacing between radio buttons and labels */
+            /* Optional: If you want to hide default radio button */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .economical-status input[type="radio"]:checked {
+            background-color: #007bff;
+            border-color: #007bff;
+            /* Optional: Change color when selected */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Questionnaire Form</h2>
+    <form action="/lowsubmit" method="post">
+        <div style="background-color: antiquewhite;">
+            <label for="personal_data_name">Name:</label>
+            <input type="text" id="personal_data_name" name="personal_data[name]" required>
+
+            <label for="personal_data_age">Age:</label>
+            <input type="number" id="personal_data_age" name="personal_data[age]" min="0" required>
+
+            <label for="personal_data_gender">Gender:</label>
+            <select id="personal_data_gender" name="personal_data[gender]" required>
+                <option value="">Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            <label style="background-color: antiquewhite;">Interests:</label>
+            <div class="interests-code">
+                <div class="interests-column">
+                    <input type="checkbox" id="programming" name="interests[]" value="Programming">
+                    <label for="programming">Programming</label><br>
+
+                    <input type="checkbox" id="graphic_design" name="interests[]" value="Graphic Design">
+                    <label for="graphic_design">Graphic Design</label><br>
+
+                    <input type="checkbox" id="digital_marketing" name="interests[]" value="Digital Marketing">
+                    <label for="digital_marketing">Digital Marketing</label><br>
+
+                    <input type="checkbox" id="photography" name="interests[]" value="Photography">
+                    <label for="photography">Photography</label><br>
+
+                    <input type="checkbox" id="writing" name="interests[]" value="Writing">
+                    <label for="writing">Writing</label><br>
+
+                    <input type="checkbox" id="public_speaking" name="interests[]" value="Public Speaking">
+                    <label for="public_speaking">Public Speaking</label><br>
+
+                    <input type="checkbox" id="teaching" name="interests[]" value="Teaching">
+                    <label for="teaching">Teaching</label><br>
+
+                    <input type="checkbox" id="music" name="interests[]" value="Music">
+                    <label for="music">Music</label><br>
+
+                    <input type="checkbox" id="sports" name="interests[]" value="Sports">
+                    <label for="sports">Sports</label><br>
+
+                    <input type="checkbox" id="cooking" name="interests[]" value="Cooking">
+                    <label for="cooking">Cooking</label><br>
+
+                    <input type="checkbox" id="gardening" name="interests[]" value="Gardening">
+                    <label for="gardening">Gardening</label><br>
+                </div>
+                <div class="interests-column">
+                    <input type="checkbox" id="travel" name="interests[]" value="Travel">
+                    <label for="travel">Travel</label><br>
+
+                    <input type="checkbox" id="fashion" name="interests[]" value="Fashion">
+                    <label for="fashion">Fashion</label><br>
+
+                    <input type="checkbox" id="fitness_training" name="interests[]" value="Fitness Training">
+                    <label for="fitness_training">Fitness Training</label><br>
+
+                    <input type="checkbox" id="video_editing" name="interests[]" value="Video Editing">
+                    <label for="video_editing">Video Editing</label><br>
+
+                    <input type="checkbox" id="acting" name="interests[]" value="Acting">
+                    <label for="acting">Acting</label><br>
+
+                    <input type="checkbox" id="event_planning" name="interests[]" value="Event Planning">
+                    <label for="event_planning">Event Planning</label><br>
+
+                    <input type="checkbox" id="robotics" name="interests[]" value="Robotics">
+                    <label for="robotics">Robotics</label><br>
+
+                    <input type="checkbox" id="mathematics" name="interests[]" value="Mathematics">
+                    <label for="mathematics">Mathematics</label><br>
+
+                    <input type="checkbox" id="chemistry" name="interests[]" value="Chemistry">
+                    <label for="chemistry">Chemistry</label><br>
+
+                    <input type="checkbox" id="physics" name="interests[]" value="Physics">
+                    <label for="physics">Physics</label><br>
+                </div>
+                <div class="interests-column">
+                    <input type="checkbox" id="astronomy" name="interests[]" value="Astronomy">
+                    <label for="astronomy">Astronomy</label><br>
+
+                    <input type="checkbox" id="biology" name="interests[]" value="Biology">
+                    <label for="biology">Biology</label><br>
+
+                    <input type="checkbox" id="history" name="interests[]" value="History">
+                    <label for="history">History</label><br>
+
+                    <input type="checkbox" id="geography" name="interests[]" value="Geography">
+                    <label for="geography">Geography</label><br>
+
+                    <input type="checkbox" id="economics" name="interests[]" value="Economics">
+                    <label for="economics">Economics</label><br>
+
+                    <input type="checkbox" id="psychology" name="interests[]" value="Psychology">
+                    <label for="psychology">Psychology</label><br>
+
+                    <input type="checkbox" id="sociology" name="interests[]" value="Sociology">
+                    <label for="sociology">Sociology</label><br>
+
+                    <input type="checkbox" id="anthropology" name="interests[]" value="Anthropology">
+                    <label for="anthropology">Anthropology</label><br>
+
+                    <input type="checkbox" id="philosophy" name="interests[]" value="Philosophy">
+                    <label for="philosophy">Philosophy</label><br>
+
+                    <input type="checkbox" id="architecture" name="interests[]" value="Architecture">
+                    <label for="architecture">Architecture</label><br>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <label style="background-color: antiquewhite;">Skil (select multiple):</label>
+            <div class="multicolumn">
+                <div class="column">
+                    <!-- Skil 1-20 -->
+                    <div>
+                        <input type="checkbox" id="skil1" name="skill[]" value="Algorithm Design">
+                        <label for="skil1">Algorithm Design</label>
+                        <input type="number" id="skil1_level" name="skills[Algorithm Design]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 2 -->
+                    -
+
+                    <!-- skills 3 -->
+                    <div>
+                        <input type="checkbox" id="skil3" name="skill[]" value="Debugging">
+                        <label for="skil3">Debugging</label>
+                        <input type="number" id="skil3_level" name="skills[Debugging]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- Add more skil following the same pattern -->
+                    <div>
+                        <input type="checkbox" id="skil4" name="skill[]" value="Data Structures">
+                        <label for="skil4">Data Structures</label>
+                        <input type="number" id="skil4_level" name="skills[Data Structures]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 5 -->
+                    <div>
+                        <input type="checkbox" id="skil5" name="skill[]" value="Object-Oriented Programming">
+                        <label for="skil5">Object-Oriented Programming</label>
+                        <input type="number" id="skil5_level" name="skills[Object-Oriented Programming]"
+                            placeholder="Level" min="1" max="10">
+                    </div>
+
+                    <!-- skills 6 -->
+                    <div>
+                        <input type="checkbox" id="skil6" name="skill[]" value="Adobe Photoshop">
+                        <label for="skil6">Adobe Photoshop</label>
+                        <input type="number" id="skil6_level" name="skills[Adobe Photoshop]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 7 -->
+                    <div>
+                        <input type="checkbox" id="skil7" name="skill[]" value="Illustrator">
+                        <label for="skil7">Illustrator</label>
+                        <input type="number" id="skil7_level" name="skills[Illustrator]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 8 -->
+                    <div>
+                        <input type="checkbox" id="skil8" name="skill[]" value="Typography">
+                        <label for="skil8">Typography</label>
+                        <input type="number" id="skil8_level" name="skills[Typography]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 9 -->
+                    <div>
+                        <input type="checkbox" id="skil9" name="skill[]" value="Logo Design">
+                        <label for="skil9">Logo Design</label>
+                        <input type="number" id="skil9_level" name="skills[Logo Design]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 10 -->
+                    <div>
+                        <input type="checkbox" id="skil10" name="skill[]" value="Print Design">
+                        <label for="skil10">Print Design</label>
+                        <input type="number" id="skil10_level" name="skills[Print Design]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 11 -->
+                    <div>
+                        <input type="checkbox" id="skil11" name="skill[]" value="SEO (Search Engine Optimization)">
+                        <label for="skil11">SEO (Search Engine Optimization)</label>
+                        <input type="number" id="skil11_level" name="skills[SEO (Search Engine Optimization)]"
+                            placeholder="Level" min="1" max="10">
+                    </div>
+
+                    <!-- skills 12 -->
+                    <div>
+                        <input type="checkbox" id="skil12" name="skill[]" value="Social Media Marketing">
+                        <label for="skil12">Social Media Marketing</label>
+                        <input type="number" id="skil12_level" name="skills[Social Media Marketing]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 13 -->
+                    <div>
+                        <input type="checkbox" id="skil13" name="skill[]" value="Content Strategy">
+                        <label for="skil13">Content Strategy</label>
+                        <input type="number" id="skil13_level" name="skills[Content Strategy]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 14 -->
+                    <div>
+                        <input type="checkbox" id="skil14" name="skill[]" value="PPC Advertising">
+                        <label for="skil14">PPC Advertising</label>
+                        <input type="number" id="skil14_level" name="skills[PPC Advertising]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 15 -->
+                    <div>
+                        <input type="checkbox" id="skil15" name="skill[]" value="Email Marketing">
+                        <label for="skil15">Email Marketing</label>
+                        <input type="number" id="skil15_level" name="skills[Email Marketing]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 16 -->
+                    <div>
+                        <input type="checkbox" id="skil16" name="skill[]" value="Lighting Techniques">
+                        <label for="skil16">Lighting Techniques</label>
+                        <input type="number" id="skil16_level" name="skills[Lighting Techniques]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 17 -->
+                    <div>
+                        <input type="checkbox" id="skil17" name="skill[]" value="Composition">
+                        <label for="skil17">Composition</label>
+                        <input type="number" id="skil17_level" name="skills[Composition]" placeholder="Level" min="1"
+                            max="10">
+                    </div>
+
+                    <!-- skills 18 -->
+                    <div>
+                        <input type="checkbox" id="skil18" name="skill[]" value="Post-Processing">
+                        <label for="skil18">Post-Processing</label>
+                        <input type="number" id="skil18_level" name="skills[Post-Processing]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 19 -->
+                    <div>
+                        <input type="checkbox" id="skil19" name="skill[]" value="Portrait Photography">
+                        <label for="skil19">Portrait Photography</label>
+                        <input type="number" id="skil19_level" name="skills[Portrait Photography]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+
+                    <!-- skills 20 -->
+                    <div>
+                        <input type="checkbox" id="skil20" name="skill[]" value="Event Photography">
+                        <label for="skil20">Event Photography</label>
+                        <input type="number" id="skil20_level" name="skills[Event Photography]" placeholder="Level"
+                            min="1" max="10">
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+        <div>
+            <label style="background-color: antiquewhite;" for="your_location">Your Location:</label>
+            <select id="your_location" name="your_location" required>
+                <option value="">Select location</option>
+                <option value="Urban">Urban</option>
+                <option value="Rural">Rural</option>
+                <option value="Metropolitan">Metropolitan</option>
+            </select>
+        </div>
+        <div class="economical-status">
+            <label style="background-color: antiquewhite;" for="economical_status">Economical Status
+                (P.A):</label><br>
+            <input type="radio" id="economical_status1" name="economical_status" value="1">
+            <label class="radio-label" for="economical_status1">upto 100000</label>
+            <input type="radio" id="economical_status2" name="economical_status" value="2">
+            <label class="radio-label" for="economical_status2">100000-300000</label>
+            <input type="radio" id="economical_status3" name="economical_status" value="3">
+            <label class="radio-label" for="economical_status3">300000-500000</label>
+            <input type="radio" id="economical_status4" name="economical_status" value="4">
+            <label class="radio-label" for="economical_status4">500000+</label>
+        </div>
+
+        <br><br>
+        <div>
+            <label style="background-color: antiquewhite;" for="subjects">Academic Subjects Scores:</label>
+            <div class="subject-row">
+                <div class="subject-item">
+                    <label for="literature">Literature:</label>
+                    <select id="literature" name="subjects[literature]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+                <div class="subject-item">
+                    <label for="physics">Physics:</label>
+                    <select id="physics" name="subjects[physics]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+                <div class="subject-item">
+                    <label for="chemistry">Chemistry:</label>
+                    <select id="chemistry" name="subjects[chemistry]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="subject-row">
+                <div class="subject-item">
+                    <label for="mathematics">Mathematics:</label>
+                    <select id="mathematics" name="subjects[mathematics]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+                <div class="subject-item">
+                    <label for="languages">Languages:</label>
+                    <select id="languages" name="subjects[languages]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+                <div class="subject-item">
+                    <label for="biology">Biology:</label>
+                    <select id="biology" name="subjects[biology]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+                <div class="subject-item">
+                    <label for="sports">Sports:</label>
+                    <select id="sports" name="subjects[sports]" required>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label style="background-color: antiquewhite;" for="peer_interests">Peer Interests:</label>
+            <div class="interests-code">
+                <div class="interests-column">
+                    <input type="checkbox" id="programming" name="interests[]" value="Programming">
+                    <label for="programming">Programming</label><br>
+
+                    <input type="checkbox" id="graphic_design" name="interests[]" value="Graphic Design">
+                    <label for="graphic_design">Graphic Design</label><br>
+
+                    <input type="checkbox" id="digital_marketing" name="interests[]" value="Digital Marketing">
+                    <label for="digital_marketing">Digital Marketing</label><br>
+
+                    <input type="checkbox" id="photography" name="interests[]" value="Photography">
+                    <label for="photography">Photography</label><br>
+
+                    <input type="checkbox" id="writing" name="interests[]" value="Writing">
+                    <label for="writing">Writing</label><br>
+
+                    <input type="checkbox" id="public_speaking" name="interests[]" value="Public Speaking">
+                    <label for="public_speaking">Public Speaking</label><br>
+
+                    <input type="checkbox" id="teaching" name="interests[]" value="Teaching">
+                    <label for="teaching">Teaching</label><br>
+
+                    <input type="checkbox" id="music" name="interests[]" value="Music">
+                    <label for="music">Music</label><br>
+
+                    <input type="checkbox" id="sports" name="interests[]" value="Sports">
+                    <label for="sports">Sports</label><br>
+
+                    <input type="checkbox" id="cooking" name="interests[]" value="Cooking">
+                    <label for="cooking">Cooking</label><br>
+
+                    <input type="checkbox" id="gardening" name="interests[]" value="Gardening">
+                    <label for="gardening">Gardening</label><br>
+                </div>
+                <div class="interests-column">
+                    <input type="checkbox" id="travel" name="interests[]" value="Travel">
+                    <label for="travel">Travel</label><br>
+
+                    <input type="checkbox" id="fashion" name="interests[]" value="Fashion">
+                    <label for="fashion">Fashion</label><br>
+
+                    <input type="checkbox" id="fitness_training" name="interests[]" value="Fitness Training">
+                    <label for="fitness_training">Fitness Training</label><br>
+
+                    <input type="checkbox" id="video_editing" name="interests[]" value="Video Editing">
+                    <label for="video_editing">Video Editing</label><br>
+
+                    <input type="checkbox" id="acting" name="interests[]" value="Acting">
+                    <label for="acting">Acting</label><br>
+
+                    <input type="checkbox" id="event_planning" name="interests[]" value="Event Planning">
+                    <label for="event_planning">Event Planning</label><br>
+
+                    <input type="checkbox" id="robotics" name="interests[]" value="Robotics">
+                    <label for="robotics">Robotics</label><br>
+
+                    <input type="checkbox" id="mathematics" name="interests[]" value="Mathematics">
+                    <label for="mathematics">Mathematics</label><br>
+
+                    <input type="checkbox" id="chemistry" name="interests[]" value="Chemistry">
+                    <label for="chemistry">Chemistry</label><br>
+
+                    <input type="checkbox" id="physics" name="interests[]" value="Physics">
+                    <label for="physics">Physics</label><br>
+                </div>
+                <div class="interests-column">
+                    <input type="checkbox" id="astronomy" name="interests[]" value="Astronomy">
+                    <label for="astronomy">Astronomy</label><br>
+
+                    <input type="checkbox" id="biology" name="interests[]" value="Biology">
+                    <label for="biology">Biology</label><br>
+
+                    <input type="checkbox" id="history" name="interests[]" value="History">
+                    <label for="history">History</label><br>
+
+                    <input type="checkbox" id="geography" name="interests[]" value="Geography">
+                    <label for="geography">Geography</label><br>
+
+                    <input type="checkbox" id="economics" name="interests[]" value="Economics">
+                    <label for="economics">Economics</label><br>
+
+                    <input type="checkbox" id="psychology" name="interests[]" value="Psychology">
+                    <label for="psychology">Psychology</label><br>
+
+                    <input type="checkbox" id="sociology" name="interests[]" value="Sociology">
+                    <label for="sociology">Sociology</label><br>
+
+                    <input type="checkbox" id="anthropology" name="interests[]" value="Anthropology">
+                    <label for="anthropology">Anthropology</label><br>
+
+                    <input type="checkbox" id="philosophy" name="interests[]" value="Philosophy">
+                    <label for="philosophy">Philosophy</label><br>
+
+                    <input type="checkbox" id="architecture" name="interests[]" value="Architecture">
+                    <label for="architecture">Architecture</label><br>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <label style="background-color: antiquewhite;" for="decision_making_style">Decision Making
+                Style:</label>
+            <input type="text" id="decision_making_style" name="mindset[decision_making_style]">
+        </div>
+
+        <div>
+            <label style="background-color: antiquewhite;" for="career_expectations">Career Expectations:</label>
+            <input type="text" id="career_expectations" name="mindset[career_expectations]">
+        </div>
+
+        <div>
+            <label style="background-color: antiquewhite;" for="reqd">Number of Options Required:</label>
+            <input type="number" id="reqd" name="reqd" min="0">
+        </div>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

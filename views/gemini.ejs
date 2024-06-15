@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="../public/styles/high.css">
+</head>
+
+<body>
+    <form id="studentForm">
+        <div class="section">
+            <h2>General Information</h2>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+            <label>Sex</label>
+            <div>
+                <input type="radio" id="male" name="sex" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="sex" value="female" required>
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <div class="section">
+            <h2>High School Marks</h2>
+            <label>Stream</label>
+            <div>
+                <input type="radio" id="science" name="stream" value="science" required>
+                <label for="science">Science</label>
+                <input type="radio" id="commerce" name="stream" value="commerce" required>
+                <label for="commerce">Commerce</label>
+                <input type="radio" id="humanities" name="stream" value="humanities" required>
+                <label for="humanities">Humanities</label>
+            </div>
+            <div class="marks">
+                <div>
+                    <label for="subject1">Subject 1</label>
+                    <input type="text" id="subject1" name="subject1" required>
+                    <input type="number" id="marks1" name="marks1" required>
+                </div>
+                <div>
+                    <label for="subject2">Subject 2</label>
+                    <input type="text" id="subject2" name="subject2" required>
+                    <input type="number" id="marks2" name="marks2" required>
+                </div>
+                <div>
+                    <label for="subject3">Subject 3</label>
+                    <input type="text" id="subject3" name="subject3" required>
+                    <input type="number" id="marks3" name="marks3" required>
+                </div>
+                <div>
+                    <label for="subject4">Subject 4</label>
+                    <input type="text" id="subject4" name="subject4" required>
+                    <input type="number" id="marks4" name="marks4" required>
+                </div>
+                <div>
+                    <label for="subject5">Subject 5</label>
+                    <input type="text" id="subject5" name="subject5" required>
+                    <input type="number" id="marks5" name="marks5" required>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Holland Code Assessment</h2>
+            <div class="holland-code">
+                <div>
+                    <h3>Are you</h3>
+                    <input type="checkbox" id="practical" name="areyou" value="Practical">
+                    <label for="practical">Practical</label>
+                    <input type="checkbox" id="athletic" name="areyou" value="Athletic">
+                    <label for="athletic">Athletic</label>
+                    <input type="checkbox" id="goodWithTools" name="areyou" value="Good with tools">
+                    <label for="goodWithTools">Good with tools</label>
+                    <input type="checkbox" id="analytical" name="areyou" value="Analytical">
+                    <label for="analytical">Analytical</label>
+                    <input type="checkbox" id="scientific" name="areyou" value="Scientific">
+                    <label for="scientific">Scientific</label>
+                    <input type="checkbox" id="observant" name="areyou" value="Observant">
+                    <label for="observant">Observant</label>
+                    <input type="checkbox" id="creative" name="areyou" value="Creative">
+                    <label for="creative">Creative</label>
+                    <input type="checkbox" id="imaginative" name="areyou" value="Imaginative">
+                    <label for="imaginative">Imaginative</label>
+                    <input type="checkbox" id="innovative" name="areyou" value="Innovative">
+                    <label for="innovative">Innovative</label>
+                    <input type="checkbox" id="friendly" name="areyou" value="Friendly">
+                    <label for="friendly">Friendly</label>
+                    <input type="checkbox" id="helpful" name="areyou" value="Helpful">
+                    <label for="helpful">Helpful</label>
+                    <input type="checkbox" id="idealistic" name="areyou" value="Idealistic">
+                    <label for="idealistic">Idealistic</label>
+                    <input type="checkbox" id="selfConfident" name="areyou" value="Self-confident">
+                    <label for="selfConfident">Self-confident</label>
+                    <input type="checkbox" id="sociable" name="areyou" value="Sociable">
+                    <label for="sociable">Sociable</label>
+                    <input type="checkbox" id="energetic" name="areyou" value="Energetic">
+                    <label for="energetic">Energetic</label>
+                    <input type="checkbox" id="accurate" name="areyou" value="Accurate">
+                    <label for="accurate">Accurate</label>
+                    <input type="checkbox" id="numericallyInclined" name="areyou" value="Numerically inclined">
+                    <label for="numericallyInclined">Numerically inclined</label>
+                    <input type="checkbox" id="methodical" name="areyou" value="Methodical">
+                    <label for="methodical">Methodical</label>
+                </div>
+                <div>
+                    <h3>Can you</h3>
+                    <input type="checkbox" id="fixElectrical" name="canyou" value="Fix electrical things">
+                    <label for="fixElectrical">Fix electrical things</label>
+                    <input type="checkbox" id="solveMechanical" name="canyou" value="Solve mechanical problems">
+                    <label for="solveMechanical">Solve mechanical problems</label>
+                    <input type="checkbox" id="playASport" name="canyou" value="Play a sport">
+                    <label for="playASport">Play a sport</label>
+                    <input type="checkbox" id="solveMath" name="canyou" value="Solve math problems">
+                    <label for="solveMath">Solve math problems</label>
+                    <input type="checkbox" id="understandPhysical" name="canyou" value="Understand physical theories">
+                    <label for="understandPhysical">Understand physical theories</label>
+                    <input type="checkbox" id="doComplex" name="canyou" value="Do complex calculations">
+                    <label for="doComplex">Do complex calculations</label>
+                    <input type="checkbox" id="sketchDraw" name="canyou" value="Sketch, draw, paint">
+                    <label for="sketchDraw">Sketch, draw, paint</label>
+                    <input type="checkbox" id="writeStories" name="canyou" value="Write stories, poetry, music, sing, act or dance">
+                    <label for="writeStories">Write stories, poetry, music, sing, act or dance</label>
+                    <input type="checkbox" id="designFashion" name="canyou" value="Design fashion or interiors">
+                    <label for="designFashion">Design fashion or interiors</label>
+                    <input type="checkbox" id="leadGroup" name="canyou" value="Lead a group discussion">
+                    <label for="leadGroup">Lead a group discussion</label>
+                    <input type="checkbox" id="mediateDisputes" name="canyou" value="Mediate disputes">
+                    <label for="mediateDisputes">Mediate disputes</label>
+                    <input type="checkbox" id="planActivities" name="canyou" value="Plan and supervise an activity">
+                    <label for="planActivities">Plan and supervise an activity</label>
+                    <input type="checkbox" id="giveTalks" name="canyou" value="Give talks or speeches">
+                    <label for="giveTalks">Give talks or speeches</label>
+                    <input type="checkbox" id="organizeEvents" name="canyou" value="Organize activities and events">
+                    <label for="organizeEvents">Organize activities and events</label>
+                    <input type="checkbox" id="leadGroup" name="canyou" value="Lead a group">
+                    <label for="leadGroup">Lead a group</label>
+                    <input type="checkbox" id="keepAccurate" name="canyou" value="Keep accurate records">
+                    <label for="keepAccurate">Keep accurate records</label>
+                    <input type="checkbox" id="useComputer" name="canyou" value="Use a computer terminal">
+                    <label for="useComputer">Use a computer terminal</label>
+                    <input type="checkbox" id="writeBusiness" name="canyou" value="Write effective business letters">
+                    <label for="writeBusiness">Write effective business letters</label>
+                </div>
+                <div>
+                    <h3>Like to</h3>
+                    <input type="checkbox" id="workOutdoors" name="liketo" value="Work outdoors">
+                    <label for="workOutdoors">Work outdoors</label>
+                    <input type="checkbox" id="bePhysicallyActive" name="liketo" value="Be physically active">
+                    <label for="bePhysicallyActive">Be physically active</label>
+                    <input type="checkbox" id="buildThings" name="liketo" value="Build things">
+                    <label for="buildThings">Build things</label>
+                    <input type="checkbox" id="exploreIdeas" name="liketo" value="Explore ideas">
+                    <label for="exploreIdeas">Explore ideas</label>
+                    <input type="checkbox" id="useComputers" name="liketo" value="Use computers">
+                    <label for="useComputers">Use computers</label>
+                    <input type="checkbox" id="readScientific" name="liketo" value="Read scientific or technical magazines">
+                    <label for="readScientific">Read scientific or technical magazines</label>
+                    <input type="checkbox" id="readFiction" name="liketo" value="Read fiction, plays or poetry">
+                    <label for="readFiction">Read fiction, plays or poetry</label>
+                    <input type="checkbox" id="workOnCraft" name="liketo" value="Work on craft">
+                    <label for="workOnCraft">Work on craft</label>
+                    <input type="checkbox" id="takePhotographs" name="liketo" value="Take photographs">
+                    <label for="takePhotographs">Take photographs</label>
+                    <input type="checkbox" id="workOnStage" name="liketo" value="Work on stage">
+                    <label for="workOnStage">Work on stage</label>
+                    <input type="checkbox" id="doVolunteer" name="liketo" value="Do volunteer service">
+                    <label for="doVolunteer">Do volunteer service</label>
+                    <input type="checkbox" id="playTeamSports" name="liketo" value="Play team sports">
+                    <label for="playTeamSports">Play team sports</label>
+                    <input type="checkbox" id="makeDecisions" name="liketo" value="Make decisions affecting others">
+                    <label for="makeDecisions">Make decisions affecting others</label>
+                    <input type="checkbox" id="startPolitical" name="liketo" value="Start your own political campaign">
+                    <label for="startPolitical">Start your own political campaign</label>
+                    <input type="checkbox" id="meetPeople" name="liketo" value="Meet important people">
+                    <label for="meetPeople">Meet important people</label>
+                    <input type="checkbox" id="followProcedures" name="liketo" value="Follow clearly defined procedures">
+                    <label for="followProcedures">Follow clearly defined procedures</label>
+                    <input type="checkbox" id="useDataProcessing" name="liketo" value="Use data processing equipment">
+                    <label for="useDataProcessing">Use data processing equipment</label>
+                    <input type="checkbox" id="workWithNumbers" name="liketo" value="Work with numbers">
+                    <label for="workWithNumbers">Work with numbers</label>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
