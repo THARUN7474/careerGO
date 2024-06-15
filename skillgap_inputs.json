@@ -1,0 +1,102 @@
+[
+    {
+        "job_name": "Software Developer",
+        "skills": ["Programming", "Algorithms", "Data Structures", "Version Control", "Databases"],
+        "values": [8, 9, 8, 7, 10]
+    },
+    {
+        "job_name": "Data Scientist",
+        "skills": ["Clinical Procedures", "Legal Research", "Financial Reporting", "Typography", "JavaScript"],
+        "values": [8, 7, 9, 6, 10]
+    },
+    {
+        "job_name": "Project Manager",
+        "skills": ["Data Cleaning", "Sketch", "Case Management", "SEO", "Usability Testing"],
+        "values": [9, 8, 7, 10, 6]
+    },
+    {
+        "job_name": "Graphic Designer",
+        "skills": ["Patient Assessment", "Legal Writing", "Big Data", "Brand Management", "Structural Analysis"],
+        "values": [6, 10, 8, 7, 9]
+    },
+    {
+        "job_name": "Marketing Manager",
+        "skills": ["Fluid Mechanics", "CAD", "Medication Administration", "Sketching", "Machine Learning"],
+        "values": [8, 9, 10, 7, 6]
+    },
+    {
+        "job_name": "Accountant",
+        "skills": ["PPC Advertising", "Agile Methodologies", "R", "UX/UI Design", "Compounding"],
+        "values": [7, 8, 9, 6, 10]
+    },
+    {
+        "job_name": "Human Resources Manager",
+        "skills": ["Budgeting", "Interaction Design", "Plating and Presentation", "Wireframing", "Prototyping"],
+        "values": [9, 10, 8, 7, 6]
+    },
+    {
+        "job_name": "Mechanical Engineer",
+        "skills": ["Performance Management", "Google Analytics", "Content Marketing", "Risk Management", "Adobe Photoshop"],
+        "values": [6, 7, 10, 8, 9]
+    },
+    {
+        "job_name": "Civil Engineer",
+        "skills": ["Leadership", "Medication Management", "Compensation and Benefits", "Usability Testing", "Big Data"],
+        "values": [9, 8, 7, 10, 6]
+    },
+    {
+        "job_name": "Nurse",
+        "skills": ["Legal Research", "Creative Strategy", "Thermodynamics", "Agile Methodologies", "Financial Reporting"],
+        "values": [8, 6, 7, 10, 9]
+    },
+    {
+        "job_name": "Teacher",
+        "skills": ["Adobe Illustrator", "User Research", "SEO", "Presentation Skills", "Clinical Knowledge"],
+        "values": [9, 7, 10, 6, 8]
+    },
+    {
+        "job_name": "Sales Manager",
+        "skills": ["Prototyping", "Creativity", "Fluid Mechanics", "Regulatory Knowledge", "Legal Writing"],
+        "values": [7, 9, 8, 10, 6]
+    },
+    {
+        "job_name": "Electrician",
+        "skills": ["Patient Care", "Interaction Design", "Machine Learning", "Customer Relationship Management", "Presentation Skills"],
+        "values": [8, 10, 6, 7, 9]
+    },
+    {
+        "job_name": "Chef",
+        "skills": ["Fluid Mechanics", "Google Analytics", "Thermodynamics", "Bookkeeping", "Clinical Knowledge"],
+        "values": [7, 9, 8, 10, 6]
+    },
+    {
+        "job_name": "Lawyer",
+        "skills": ["Data Structures", "Patient Care", "Wireframing", "Creativity", "Clinical Knowledge"],
+        "values": [8, 7, 9, 10, 6]
+    },
+    {
+        "job_name": "Architect",
+        "skills": ["Time Management", "SEO", "Budgeting", "JavaScript", "Clinical Procedures"],
+        "values": [10, 8, 6, 9, 7]
+    },
+    {
+        "job_name": "Pharmacist",
+        "skills": ["Bookkeeping", "Creativity", "Machine Learning", "Wireframing", "SEO"],
+        "values": [7, 9, 8, 6, 10]
+    },
+    {
+        "job_name": "Web Developer",
+        "skills": ["R", "Patient Care", "Market Research", "Fluid Mechanics", "Data Structures"],
+        "values": [10, 7, 6, 9, 8]
+    },
+    {
+        "job_name": "Digital Marketer",
+        "skills": ["Adobe Photoshop", "UX/UI Design", "Medication Administration", "JavaScript", "Adobe XD"],
+        "values": [8, 9, 10, 6, 7]
+    },
+    {
+        "job_name": "UX/UI Designer",
+        "skills": ["Excel", "Machine Learning", "Tax Preparation", "SEO", "Performance Management"],
+        "values": [9, 10, 6, 7, 8]
+    }
+]

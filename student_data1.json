@@ -1,41 +1,32 @@
 {
+    "interests": ["Science", "Mathematics", "Sports", "Art", "Music"],
+    "skills": {
+        "Problem Solving": 8,
+        "Critical Thinking": 7,
+        "Teamwork": 6,
+        "Creativity": 9
+    },
+    "your_location": "Urban",
+    "economical_status": 2,
+    "subjects": {
+        "LITERATURE": "A",
+        "Mathematics": "B",
+        "LANGUAGES": "A",
+        "PHYSICS": "B",
+        "CHEMISTRY": "C",
+        "BIOLOGY": "A",
+        "SPORTS": "A"
+    },
+    "peer_interests": ["Science", "Biology", "Art", "Commerce"],
     "personal_data": {
-        "name": "Banda Tharun",
-        "age": 19,
+        "name": "Jane Smith",
+        "age": 15,
         "gender": "Female"
     },
-    "interests": [
-        "Sports",
-        "Writing",
-        "Music",
-        "Cooking",
-        "Physics"
-    ],
-    "skills": {
-        "Algorithm Design": 10,
-        "Content Strategy": 2
-    },
-    "your_location": "Rural",
-    "economical_status": "2",
-    "subjects": {
-        "literature": "A",
-        "physics": "A",
-        "chemistry": "A",
-        "mathematics": "A",
-        "languages": "A",
-        "biology": "A",
-        "sports": "A"
-    },
-    "peer_interests": [
-        "Sports",
-        "Writing",
-        "Music",
-        "Cooking",
-        "Physics"
-    ],
     "mindset": {
-        "decision_making_style": "asfdrtsdfg",
-        "career_expectations": "ADSZfgh"
+        "motivation": "High",
+        "decision_making_style": "Intuitive",
+        "career_expectations": "Exploring different options"
     },
-    "reqd": 3
+    "reqd":4
 }

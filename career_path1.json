@@ -1,0 +1,37 @@
+[
+  {
+      "career_name": "MPC",
+      "interests": ["Engineering", "Science", "Mathematics"],
+      "skills": ["Problem-solving", "Analytical thinking", "Mathematical skills"],
+      "subjects": ["Mathematics", "Physics", "Chemistry"],
+      "economic": 3
+  },
+  {
+      "career_name": "BIPC",
+      "interests": ["Biology", "Medicine", "Health Sciences"],
+      "skills": ["Biology knowledge", "Medical aptitude", "Research skills"],
+      "subjects": ["Biology", "Physics", "Chemistry"],
+      "economic": 3
+  },
+  {
+      "career_name": "CEC",
+      "interests": ["Commerce", "Economics", "Business Studies"],
+      "skills": ["Financial literacy", "Business acumen", "Analytical skills"],
+      "subjects": ["Commerce", "Economics", "Accountancy"],
+      "economic": 2
+  },
+  {
+      "career_name": "HEC",
+      "interests": ["Humanities", "Social Sciences", "Languages"],
+      "skills": ["Communication skills", "Critical thinking", "Research abilities"],
+      "subjects": ["History", "Economics", "Civics", "Geography"],
+      "economic": 1
+  },
+  {
+      "career_name": "POLYTECHNIC",
+      "interests": ["Technical skills", "Engineering", "Applied Sciences"],
+      "skills": ["Technical drawing", "Problem-solving", "Practical skills"],
+      "subjects": ["Mathematics", "Physics", "Chemistry", "Technical Drawing"],
+      "economic": 1
+  }
+]

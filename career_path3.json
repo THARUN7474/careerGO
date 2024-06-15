@@ -1,0 +1,422 @@
+[
+    {
+        "career_name": "Software Engineer",
+        "interests": ["Programming", "Computer Science", "Artificial Intelligence", "Data Science", "Cybersecurity"],
+        "skills": ["Algorithm Design", "Software Development", "Debugging", "Data Structures", "Object-Oriented Programming"],
+        "subjects": ["Computer Science", "Information Technology", "Software Engineering", "Artificial Intelligence"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Data Analyst",
+        "interests": ["Data Science", "Statistics", "Mathematics", "Economics"],
+        "skills": ["Data Analysis", "Data Visualization", "Statistical Modeling", "Big Data Analytics"],
+        "subjects": ["Statistics", "Economics", "Computer Science", "Data Science"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Marketing Executive",
+        "interests": ["Digital Marketing", "Economics", "Business Management", "Entrepreneurship"],
+        "skills": ["SEO", "Social Media Marketing", "Content Strategy", "PPC Advertising", "Email Marketing"],
+        "subjects": ["Business Studies", "Marketing", "Economics", "Entrepreneurship"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Financial Analyst",
+        "interests": ["Economics", "Mathematics", "Business Management", "Finance"],
+        "skills": ["Financial Management", "Market Research", "Data Analysis", "Statistical Modeling"],
+        "subjects": ["Economics", "Finance", "Business Administration", "Statistics"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 550000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Content Writer",
+        "interests": ["Writing", "Creative Writing", "Journalism", "Literature"],
+        "skills": ["Creative Writing", "Copywriting", "Editing", "Blogging", "Research"],
+        "subjects": ["English", "Journalism", "Creative Writing", "Literature"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 300000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Human Resources Coordinator",
+        "interests": ["Human Resources", "Psychology", "Business Management", "Sociology"],
+        "skills": ["Talent Acquisition", "Employee Relations", "Performance Management", "HR Compliance"],
+        "subjects": ["Business Studies", "Human Resource Management", "Psychology", "Sociology"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 450000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Business Development Executive",
+        "interests": ["Business Management", "Entrepreneurship", "Marketing", "Economics"],
+        "skills": ["Strategic Planning", "Market Research", "Marketing Strategy", "Financial Management"],
+        "subjects": ["Business Administration", "Marketing", "Economics", "Entrepreneurship"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Sales Manager",
+        "interests": ["Business Management", "Entrepreneurship", "Economics", "Public Speaking"],
+        "skills": ["Negotiation Skills", "Market Research", "Strategic Planning", "Marketing Strategy"],
+        "subjects": ["Business Administration", "Marketing", "Economics", "Entrepreneurship"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Customer Service Representative",
+        "interests": ["Public Speaking", "Psychology", "Human Resources", "Business Management"],
+        "skills": ["Presentation Skills", "Audience Engagement", "Nonverbal Communication", "Employee Relations"],
+        "subjects": ["Business Studies", "Psychology", "Human Resource Management", "Sociology"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 300000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Graphic Designer",
+        "interests": ["Graphic Design", "Art", "Photography", "Fashion"],
+        "skills": ["Adobe Photoshop", "Illustrator", "Typography", "Logo Design", "Print Design"],
+        "subjects": ["Fine Arts", "Graphic Design", "Fashion Design", "Photography"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Research Analyst",
+        "interests": ["Research", "Statistics", "Economics", "Psychology"],
+        "skills": ["Research Methods", "Statistical Analysis", "Data Visualization", "Market Research"],
+        "subjects": ["Economics", "Statistics", "Psychology", "Sociology"],
+        "education_level": "Master's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Operations Manager",
+        "interests": ["Business Management", "Economics", "Entrepreneurship", "Public Speaking"],
+        "skills": ["Operations Management", "Strategic Planning", "Financial Management", "Logistics"],
+        "subjects": ["Business Administration", "Economics", "Entrepreneurship", "Operations Management"],
+        "education_level": "Master's",
+        "Expected_Salary": 700000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Digital Marketing Specialist",
+        "interests": ["Digital Marketing", "Economics", "Business Management", "Entrepreneurship"],
+        "skills": ["SEO", "Social Media Marketing", "Content Strategy", "PPC Advertising", "Email Marketing"],
+        "subjects": ["Business Studies", "Marketing", "Economics", "Entrepreneurship"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Web Developer",
+        "interests": ["Programming", "Computer Science", "Artificial Intelligence", "Cybersecurity"],
+        "skills": ["Software Development", "Web Development", "Debugging", "Data Structures", "Object-Oriented Programming"],
+        "subjects": ["Computer Science", "Information Technology", "Software Engineering", "Cybersecurity"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Civil Engineer",
+        "interests": ["Civil Engineering", "Architecture", "Environmental Science", "Geography"],
+        "skills": ["Structural Analysis", "Geotechnical Engineering", "Construction Management", "Urban Planning"],
+        "subjects": ["Civil Engineering", "Architecture", "Environmental Science", "Geography"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 700000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Mechanical Engineer",
+        "interests": ["Mechanical Engineering", "Physics", "Robotics", "Manufacturing"],
+        "skills": ["Mechanical Design", "Thermodynamics", "Fluid Mechanics", "Manufacturing Processes", "Robotics and Automation"],
+        "subjects": ["Mechanical Engineering", "Physics", "Robotics", "Manufacturing"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 700000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Electrical Engineer",
+        "interests": ["Electrical Engineering", "Physics", "Robotics", "Electronics"],
+        "skills": ["Circuit Design", "Power Systems", "Electronics", "Control Systems", "Embedded Systems"],
+        "subjects": ["Electrical Engineering", "Physics", "Electronics", "Robotics"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 700000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+        {
+        "career_name": "Teacher / Educator",
+        "interests": ["Teaching", "Education", "Psychology", "Public Speaking"],
+        "skills": ["Curriculum Development", "Classroom Management", "Instructional Design", "Student Assessment"],
+        "subjects": ["Education", "Psychology", "Human Resource Management", "Sociology"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Accountant",
+        "interests": ["Mathematics", "Economics", "Business Management", "Finance"],
+        "skills": ["Financial Management", "Data Analysis", "Statistical Modeling", "Market Research"],
+        "subjects": ["Accountancy", "Economics", "Business Administration", "Finance"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Nurse",
+        "interests": ["Nursing", "Medicine", "Biology", "Psychology"],
+        "skills": ["Patient Care", "Medical Research", "Clinical Skills", "Patient Education", "Emergency Care"],
+        "subjects": ["Nursing", "Medicine", "Biology", "Healthcare"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Pharmacist",
+        "interests": ["Pharmacy", "Chemistry", "Biology", "Medicine"],
+        "skills": ["Pharmacology", "Patient Care", "Medication Therapy Management", "Pharmaceutical Compounding", "Patient Counseling"],
+        "subjects": ["Pharmacy", "Chemistry", "Biology", "Medicine"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Journalist",
+        "interests": ["Writing", "Journalism", "Public Speaking", "Political Science"],
+        "skills": ["News Reporting", "Investigative Journalism", "Digital Journalism", "Interviewing", "Editing"],
+        "subjects": ["Journalism", "English", "Political Science", "Media Studies"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Lawyer / Legal Advisor",
+        "interests": ["Law", "Political Science", "Public Speaking", "Sociology"],
+        "skills": ["Legal Research", "Litigation", "Contract Law", "Criminal Law", "Intellectual Property Law"],
+        "subjects": ["LLB", "Political Science", "Sociology", "Legal Studies"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Architect",
+        "interests": ["Architecture", "Civil Engineering", "Art", "Urban Planning"],
+        "skills": ["Architectural Design", "Building Information Modeling (BIM)", "Urban Planning", "Interior Design", "Historic Preservation"],
+        "subjects": ["Architecture", "Civil Engineering", "Fine Arts", "Urban Planning"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Environmental Scientist",
+        "interests": ["Environmental Science", "Biology", "Chemistry", "Geography"],
+        "skills": ["Environmental Impact Assessment", "Climate Change Science", "Conservation Biology", "Environmental Policy", "Sustainability Studies"],
+        "subjects": ["Environmental Science", "Biology", "Chemistry", "Geography"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Social Media Manager",
+        "interests": ["Digital Marketing", "Business Management", "Public Speaking", "Graphic Design"],
+        "skills": ["Social Media Marketing", "Content Strategy", "SEO", "PPC Advertising", "Audience Engagement"],
+        "subjects": ["Marketing", "Business Studies", "Entrepreneurship", "Graphic Design"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Event Planner",
+        "interests": ["Event Planning", "Business Management", "Public Speaking", "Logistics"],
+        "skills": ["Event Coordination", "Vendor Management", "Budget Management", "Logistics", "Catering Management"],
+        "subjects": ["Event Management", "Business Studies", "Marketing", "Entrepreneurship"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Fitness Instructor",
+        "interests": ["Fitness Training", "Sports", "Nutrition", "Coaching"],
+        "skills": ["Personal Training", "Exercise Physiology", "Strength Training", "Cardiovascular Conditioning", "Flexibility Training"],
+        "subjects": ["Physical Education", "Sports Management", "Nutrition and Dietetics", "Physiotherapy"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 350000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Chef",
+        "interests": ["Cooking", "Food Science", "Nutrition", "Entrepreneurship"],
+        "skills": ["Culinary Techniques", "Recipe Development", "Food Safety", "Menu Planning", "Gastronomy"],
+        "subjects": ["Culinary Arts", "Hotel Management", "Nutrition and Dietetics", "Entrepreneurship"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 400000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Interior Designer",
+        "interests": ["Interior Design", "Architecture", "Art", "Urban Planning"],
+        "skills": ["Interior Design", "Architectural Design", "Urban Planning", "Building Information Modeling (BIM)", "Historic Preservation"],
+        "subjects": ["Interior Design", "Architecture", "Fine Arts", "Urban Planning"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Psychologist",
+        "interests": ["Psychology", "Sociology", "Public Speaking", "Healthcare"],
+        "skills": ["Cognitive Psychology", "Behavioral Psychology", "Clinical Psychology", "Social Psychology", "Neuropsychology"],
+        "subjects": ["Psychology", "Sociology", "Healthcare", "Human Resource Management"],
+        "education_level": "Master's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Veterinarian",
+        "interests": ["Veterinary Medicine", "Biology", "Zoology", "Healthcare"],
+        "skills": ["Animal Surgery", "Veterinary Pharmacology", "Diagnostic Imaging", "Zoological Medicine", "Veterinary Pathology"],
+        "subjects": ["Veterinary Science", "Biology", "Zoology", "Healthcare"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Software Developer",
+        "interests": ["Programming", "Computer Science", "Data Science", "Artificial Intelligence"],
+        "skills": ["Algorithm Design", "Software Development", "Debugging", "Data Structures", "Object-Oriented Programming"],
+        "subjects": ["Computer Science", "Information Technology", "Software Engineering", "Artificial Intelligence"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Data Scientist",
+        "interests": ["Data Science", "Statistics", "Mathematics", "Economics"],
+        "skills": ["Data Analysis", "Data Visualization", "Machine Learning", "Big Data Analytics"],
+        "subjects": ["Statistics", "Economics", "Computer Science", "Data Science"],
+        "education_level": "Master's",
+        "Expected_Salary": 800000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Cybersecurity Analyst",
+        "interests": ["Cybersecurity", "Computer Science", "Information Technology", "Ethical Hacking"],
+        "skills": ["Network Security", "Ethical Hacking", "Information Assurance", "Incident Response", "Cryptographic Protocols"],
+                "subjects": ["Cybersecurity", "Computer Science", "Information Technology", "Ethical Hacking"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 700000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "UX/UI Designer",
+        "interests": ["Graphic Design", "User Experience", "Computer Science", "Psychology"],
+        "skills": ["User Interface Design", "User Experience Design", "Prototyping", "Usability Testing", "Wireframing"],
+        "subjects": ["Graphic Design", "Computer Science", "Psychology", "Interaction Design"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 500000,
+        "gender": "Any",
+        "locations": ["Remote", "National"]
+    },
+    {
+        "career_name": "Biomedical Engineer",
+        "interests": ["Biomedical Engineering", "Biology", "Medicine", "Physics"],
+        "skills": ["Medical Device Design", "Biomechanics", "Biomaterials", "Clinical Engineering", "Tissue Engineering"],
+        "subjects": ["Biomedical Engineering", "Biology", "Medicine", "Physics"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 650000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Chemical Engineer",
+        "interests": ["Chemical Engineering", "Chemistry", "Physics", "Environmental Science"],
+        "skills": ["Process Engineering", "Chemical Process Design", "Materials Science", "Thermodynamics", "Reaction Engineering"],
+        "subjects": ["Chemical Engineering", "Chemistry", "Physics", "Environmental Science"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 700000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Project Manager",
+        "interests": ["Business Management", "Economics", "Entrepreneurship", "Public Speaking"],
+        "skills": ["Project Planning", "Risk Management", "Budget Management", "Team Leadership", "Stakeholder Management"],
+        "subjects": ["Business Administration", "Economics", "Entrepreneurship", "Project Management"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Logistics Manager",
+        "interests": ["Logistics", "Supply Chain Management", "Business Management", "Economics"],
+        "skills": ["Supply Chain Optimization", "Inventory Management", "Transportation Management", "Warehouse Management", "Procurement"],
+        "subjects": ["Supply Chain Management", "Logistics", "Business Administration", "Economics"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 600000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Actuary",
+        "interests": ["Mathematics", "Statistics", "Economics", "Finance"],
+        "skills": ["Risk Assessment", "Statistical Analysis", "Financial Modeling", "Probability Theory", "Data Analysis"],
+        "subjects": ["Mathematics", "Statistics", "Economics", "Finance"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 800000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    },
+    {
+        "career_name": "Public Relations Specialist",
+        "interests": ["Public Relations", "Marketing", "Business Management", "Communications"],
+        "skills": ["Media Relations", "Crisis Management", "Event Planning", "Content Creation", "Social Media Management"],
+        "subjects": ["Public Relations", "Marketing", "Communications", "Business Administration"],
+        "education_level": "Bachelor's",
+        "Expected_Salary": 450000,
+        "gender": "Any",
+        "locations": ["National", "Global"]
+    }
+]

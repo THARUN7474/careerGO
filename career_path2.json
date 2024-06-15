@@ -1,0 +1,50 @@
+[
+    {
+        "career_name": "Engineering",
+        "interests": ["Mathematics", "Physics", "Mechanical Systems", "Electrical Circuits", "Computer Programming"],
+        "skills": ["Problem-solving", "Critical thinking", "Analytical skills", "Technical knowledge"],
+        "subjects": ["Mathematics", "Physics", "Chemistry", "Computer Science", "Mechanical Engineering", "Electrical Engineering"],
+        "Peer_interests": ["Graphic Design", "Digital Marketing", "Photography", "Writing", "Public Speaking", "Music", "Sports", "Cooking", "Travel", "Fashion", "Fitness Training", "Video Editing", "Acting", "Event Planning"],
+        "economic": 3
+    },
+    {
+        "career_name": "Medicine",
+        "interests": ["Biology", "Human Anatomy", "Healthcare", "Medical Research", "Patient Care"],
+        "skills": ["Medical knowledge", "Critical thinking", "Empathy", "Attention to detail"],
+        "subjects": ["Biology", "Chemistry", "Physics", "Anatomy", "Physiology", "Pharmacology"],
+        "Peer_interests": ["Digital Marketing", "Graphic Design", "Writing", "Public Speaking", "Music", "Sports", "Cooking", "Travel", "Fashion", "Fitness Training", "Video Editing", "Acting", "Event Planning"],
+        "economic": 4
+    },
+    {
+        "career_name": "Veterinary",
+        "interests": ["Animal Care", "Biology", "Veterinary Medicine", "Animal Behavior", "Surgery"],
+        "skills": ["Animal handling", "Medical knowledge", "Problem-solving", "Communication skills"],
+        "subjects": ["Biology", "Chemistry", "Animal Husbandry", "Veterinary Anatomy", "Pharmacology"],
+        "Peer_interests": ["Photography", "Graphic Design", "Digital Marketing", "Writing", "Public Speaking", "Music", "Sports", "Cooking", "Travel", "Fashion", "Fitness Training", "Video Editing", "Acting", "Event Planning"],
+        "economic":3
+    },
+    {
+        "career_name": "Agriculture courses",
+        "interests": ["Crop Science", "Soil Management", "Agricultural Economics", "Agribusiness", "Sustainable Agriculture"],
+        "skills": ["Agro-technology", "Problem-solving", "Research skills", "Business acumen"],
+        "subjects": ["Agricultural Science", "Crop Physiology", "Soil Science", "Agro-meteorology", "Agricultural Engineering"],
+        "Peer_interests": ["Travel", "Graphic Design", "Digital Marketing", "Photography", "Writing", "Public Speaking", "Music", "Sports", "Cooking", "Fashion", "Fitness Training", "Video Editing", "Acting", "Event Planning"],
+        "economic":3
+    },
+    {
+        "career_name": "Chartered Accountant",
+        "interests": ["Accounting", "Finance", "Taxation", "Auditing", "Financial Management"],
+        "skills": ["Financial analysis", "Problem-solving", "Attention to detail", "Analytical skills"],
+        "subjects": ["Accounting", "Auditing", "Taxation", "Financial Management", "Business Laws"],
+        "Peer_interests": ["Writing", "Graphic Design", "Digital Marketing", "Photography", "Public Speaking", "Music", "Sports", "Cooking", "Travel", "Fashion", "Fitness Training", "Video Editing", "Acting", "Event Planning"],
+        "economic":2
+    },
+    {
+        "career_name": "B.Ed Degree",
+        "interests": ["Teaching", "Education", "Child Development", "Curriculum Design", "Classroom Management"],
+        "skills": ["Communication skills", "Patience", "Adaptability", "Organizational skills"],
+        "subjects": ["Education Psychology", "Teaching Methods", "Educational Administration", "Child Development", "Curriculum Planning"],
+        "Peer_interests": ["Public Speaking", "Graphic Design", "Digital Marketing", "Photography", "Writing", "Music", "Sports", "Cooking", "Travel", "Fashion", "Fitness Training", "Video Editing", "Acting", "Event Planning"],
+        "economic":2
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "interests": ["Mechanical Systems", "Mathematics", "Biology", "Surgery", "taxation"],
+    "skills": {
+        "Problem-solving":8,
+        "Critical thinking": 9,
+        "Analytical skills": 6,
+        "Technical knowledge":8,
+        "Animal handling": 7,
+        "Medical knowledge": 10
+    },
+    "your_location": "Urban",
+    "economical_status": 2,
+    "subjects": {
+        "Mathematics": "B",
+        "Physics": "B",
+        "Chmistry": "C",
+        "Biology": "A",
+        "Anatomy": "C",
+        "Pharmacology": "B"
+    },
+    "peer_interests": ["Pharmacology", "Biology", "Surgery", "Commerce"],
+    "reqd":4
+}

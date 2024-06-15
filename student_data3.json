@@ -1,0 +1,21 @@
+    {
+        "interests": ["Programming", "Computer Science", "Artificial Intelligence", "Data Science"],
+        "skills": {
+            "Programming languages": 7,
+            "Problem-solving": 8,
+            "Algorithm design": 6,
+            "Data structures": 7
+        },
+        "your_location": "Metropolitan",
+        "economical_status": 3,
+        "subjects": {
+            "Programming": "A",
+            "Data Structures and Algorithms": "B",
+            "Computer Networks": "A"
+        },
+        "gender":"Male",
+        "peer_interests": ["Gaming", "Graphic Design", "Cybersecurity"],
+        "Choice": "Job",
+        "Educational_level": "Bachelor's",
+        "reqd": 10
+    }

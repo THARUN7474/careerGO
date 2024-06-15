@@ -1,0 +1,262 @@
+[
+    {
+        "job_name": "Software Developer",
+        "skills": [
+            "Programming",
+            "Algorithms",
+            "Data Structures",
+            "Version Control",
+            "Databases",
+            "Debugging",
+            "Software Design",
+            "Unit Testing"
+        ]
+    },
+    {
+        "job_name": "Data Scientist",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Statistics",
+            "Data Visualization",
+            "Big Data",
+            "Data Cleaning",
+            "SQL",
+            "R"
+        ]
+    },
+    {
+        "job_name": "Project Manager",
+        "skills": [
+            "Project Planning",
+            "Risk Management",
+            "Budgeting",
+            "Stakeholder Management",
+            "Leadership",
+            "Communication",
+            "Time Management",
+            "Agile Methodologies"
+        ]
+    },
+    {
+        "job_name": "Graphic Designer",
+        "skills": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Creativity",
+            "Typography",
+            "Branding",
+            "UX/UI Design",
+            "Sketch",
+            "Color Theory"
+        ]
+    },
+    {
+        "job_name": "Marketing Manager",
+        "skills": [
+            "SEO",
+            "Content Creation",
+            "Social Media Marketing",
+            "Analytics",
+            "Email Marketing",
+            "Brand Management",
+            "Copywriting",
+            "Market Research"
+        ]
+    },
+    {
+        "job_name": "Accountant",
+        "skills": [
+            "Financial Reporting",
+            "Tax Preparation",
+            "Bookkeeping",
+            "Auditing",
+            "Excel",
+            "GAAP",
+            "Budgeting",
+            "Payroll"
+        ]
+    },
+    {
+        "job_name": "Human Resources Manager",
+        "skills": [
+            "Recruitment",
+            "Employee Relations",
+            "Performance Management",
+            "HRIS",
+            "Training and Development",
+            "Compensation and Benefits",
+            "Compliance",
+            "Conflict Resolution"
+        ]
+    },
+    {
+        "job_name": "Mechanical Engineer",
+        "skills": [
+            "CAD",
+            "Mechanical Design",
+            "Materials Science",
+            "Thermodynamics",
+            "Fluid Mechanics",
+            "Finite Element Analysis",
+            "Project Management",
+            "Manufacturing Processes"
+        ]
+    },
+    {
+        "job_name": "Civil Engineer",
+        "skills": [
+            "AutoCAD",
+            "Structural Analysis",
+            "Construction Management",
+            "Geotechnical Engineering",
+            "Surveying",
+            "Project Planning",
+            "Hydraulics",
+            "Building Codes"
+        ]
+    },
+    {
+        "job_name": "Nurse",
+        "skills": [
+            "Patient Care",
+            "Medication Administration",
+            "Clinical Procedures",
+            "Patient Assessment",
+            "Communication",
+            "Critical Thinking",
+            "Compassion",
+            "Documentation"
+        ]
+    },
+    {
+        "job_name": "Teacher",
+        "skills": [
+            "Lesson Planning",
+            "Classroom Management",
+            "Curriculum Development",
+            "Student Assessment",
+            "Communication",
+            "Subject Expertise",
+            "Technology Integration",
+            "Differentiated Instruction"
+        ]
+    },
+    {
+        "job_name": "Sales Manager",
+        "skills": [
+            "Sales Strategy",
+            "Customer Relationship Management",
+            "Negotiation",
+            "Leadership",
+            "Communication",
+            "Market Analysis",
+            "Presentation Skills",
+            "Closing Techniques"
+        ]
+    },
+    {
+        "job_name": "Electrician",
+        "skills": [
+            "Wiring",
+            "Circuitry",
+            "Electrical Codes",
+            "Blueprint Reading",
+            "Troubleshooting",
+            "Safety Procedures",
+            "Power Systems",
+            "Installation"
+        ]
+    },
+    {
+        "job_name": "Chef",
+        "skills": [
+            "Culinary Skills",
+            "Menu Planning",
+            "Food Safety",
+            "Ingredient Knowledge",
+            "Creativity",
+            "Time Management",
+            "Team Leadership",
+            "Plating and Presentation"
+        ]
+    },
+    {
+        "job_name": "Lawyer",
+        "skills": [
+            "Legal Research",
+            "Legal Writing",
+            "Case Management",
+            "Client Consultation",
+            "Negotiation",
+            "Courtroom Procedure",
+            "Ethics",
+            "Critical Thinking"
+        ]
+    },
+    {
+        "job_name": "Architect",
+        "skills": [
+            "Design",
+            "CAD",
+            "Building Codes",
+            "Construction Knowledge",
+            "Project Management",
+            "Sketching",
+            "Sustainability",
+            "Presentation Skills"
+        ]
+    },
+    {
+        "job_name": "Pharmacist",
+        "skills": [
+            "Pharmaceutical Knowledge",
+            "Patient Counseling",
+            "Medication Management",
+            "Clinical Knowledge",
+            "Attention to Detail",
+            "Regulatory Knowledge",
+            "Compounding",
+            "Inventory Management"
+        ]
+    },
+    {
+        "job_name": "Web Developer",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Responsive Design",
+            "Version Control",
+            "Backend Development",
+            "Web Performance",
+            "Testing and Debugging"
+        ]
+    },
+    {
+        "job_name": "Digital Marketer",
+        "skills": [
+            "SEO",
+            "Content Marketing",
+            "Social Media Advertising",
+            "Google Analytics",
+            "Email Marketing",
+            "PPC Advertising",
+            "Copywriting",
+            "Conversion Optimization"
+        ]
+    },
+    {
+        "job_name": "UX/UI Designer",
+        "skills": [
+            "Wireframing",
+            "Prototyping",
+            "User Research",
+            "Usability Testing",
+            "Adobe XD",
+            "Sketch",
+            "Interaction Design",
+            "Visual Design"
+        ]
+    }
+]
